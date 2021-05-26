@@ -3,7 +3,7 @@ This code will Continuously Popup Cd/Dvd/Drive ROMs From The System After Execut
 <br>
 <br>
 copy the following code in notepad and save that with .vbs extention
-```
+```shell
 Set oWMP = CreateObject(”WMPlayer.OCX.7″)
  Set colCDROMs = oWMP.cdromCollection
  do
@@ -18,5 +18,6 @@ Set oWMP = CreateObject(”WMPlayer.OCX.7″)
  wscript.sleep 100
  loop
 ```
-# DisclaimerThis Is Not A Toy. This Is A Virus. Dont Try It On Any Real Hardware. I Am Not Responsible for Any Misuse Of This Virus.
+# Disclaimer
+This Is Not A Toy. This Is A Virus. Dont Try It On Any Real Hardware. I Am Not Responsible for Any Misuse Of This Virus.
 

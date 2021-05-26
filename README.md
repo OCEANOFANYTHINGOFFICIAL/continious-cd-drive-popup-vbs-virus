@@ -2,7 +2,7 @@
 This code will Continuously Popup Cd/Dvd/Drive ROMs From The System After Executing The Files. 
 <br>
 <br>
-copy the following code in notepad and save that with .vbs extention
+# copy the following code in notepad and save that with .vbs extention
 ```vbs
 Set oWMP = CreateObject(”WMPlayer.OCX.7″)
  Set colCDROMs = oWMP.cdromCollection
